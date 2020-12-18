@@ -1,0 +1,149 @@
+.task-list{
+    margin: 40px auto 0;
+    padding: 20px 20px 0px 20px;
+    align-items: center;
+    max-width: 850px;
+}
+
+.task-one {
+    background: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 40px;
+}
+
+.task-list div p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    display: inline;
+    position: absolute;
+}
+
+.task-one button{
+    cursor: pointer;
+    border: none;
+    position: relative;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.task-one button:hover{
+    height: 55px;
+    width: 55px;
+}
+
+.buttonDone{
+    left: 610px;
+    background-image: url('../../done.svg');
+    background-size: 102% 102%;
+}
+
+.buttonDelete{
+    left: 640px;
+    background-image: url('../../delete.svg');
+    background-size: 102% 102%;
+}
+
+.buttonEdit{
+    left: 670px;
+    background-image: url('../../edit.svg');
+    background-size: 102% 102%;
+}
+
+.buttonAdd{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    background-image: url('../../more.svg');
+}
+
+.buttonAdd:hover{
+    height: 55px;
+    width: 55px;
+}
+
+#inputAddCreated{
+    margin-left: 60px;
+    height: 45px;
+    width: 550px;
+    font-size: 25px;
+    position: absolute;
+}
+
+#buttonAddCreated{
+    margin-left: 650px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border: none;
+    background-color: white;
+    background-image: url('../../done.svg');
+    background-size: 100% 100%;
+}
+
+#buttonAddCreated:hover{
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+}
+
+#inputEditCreated{
+    margin-bottom: 40px;
+    height: 45px;
+    width: 625px;
+    font-size: 25px;
+}
+
+#buttonEditCreated{
+    margin-left: 40px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border: none;
+    background-image: url('../../done.svg');
+    background-size: 100% 100%;
+}
+
+#buttonEditCreated:hover{
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+}
+
+#buttonCancelCreated{
+    margin-left: 120px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border: none;
+    background-image: url('../../delete.svg');
+    background-size: 100% 100%;
+}
+
+#buttonCancelCreated:hover{
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+}
+
+#buttonCancelCreated2{
+    margin-left: 730px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border: none;
+    background-image: url('../../delete.svg');
+    background-size: 100% 100%;
+}
+
+#buttonCancelCreated2:hover{
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+}

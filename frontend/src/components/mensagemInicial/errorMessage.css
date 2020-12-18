@@ -1,0 +1,19 @@
+.erroCaracteres{
+    width: 100%;
+    height: 60px;
+    background-color: #f86668;
+}
+
+.sucesso{
+    width: 100%;
+    height: 60px;
+    background-color: #7ee15b;
+}
+
+#paragrafoCriado{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    line-height: 55px;
+}
